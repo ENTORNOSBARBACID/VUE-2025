@@ -1,12 +1,8 @@
 <template>
   <div class="content">
     <router-link to="/" class="link">Home</router-link>
-    <router-link to="/series" class="link">Series</router-link>
-    <router-link to="/cine" class="link">Cine</router-link>
-    <router-link to="/directivas" class="link">Directivas</router-link>
-    <router-link to="/parimpar" class="link">Par Impar</router-link>
-    <router-link to="/conmutada" class="link">Propiedad Conmutada</router-link>
-    <router-link to="/filters" class="link">Metodos Filters</router-link>
+    <router-link to="/collatz" class="link">Collatz</router-link>
+    <router-link to="/tabla" class="link">Tabla</router-link>
   </div>
 </template>
 
