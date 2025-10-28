@@ -1,14 +1,17 @@
 <template>
-<PadreComponentVue></PadreComponentVue>
+  <CheckboxComponent></CheckboxComponent>
 </template>
 
 <script>
-import PadreComponentVue from './components/PadreComponent.vue'
-
+// import PadreComponentVue from './components/PadreComponent.vue'
+// import PadreNumero from './components/PadreNumero.vue';
+// import Comics from './components/ComicsComponent.vue';
+// import SeleccionMultiple from './components/SeleccionMultiple.vue';
+import CheckboxComponent from './components/CheckboxComponent.vue';
 export default {
   name: 'App',
   components: {
-     PadreComponentVue
+      CheckboxComponent
   }
 }
 </script>

@@ -1,0 +1,19 @@
+.rojo{
+    background-color: red;
+    color:white;
+}
+.verde{
+    background-color: green;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+div#contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div#favorito{
+    background-color: rgb(206, 201, 201);
+    }
