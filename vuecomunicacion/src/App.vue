@@ -1,5 +1,6 @@
 <template>
-  <CheckboxComponent></CheckboxComponent>
+  <MenuTabla></MenuTabla>
+  <router-view></router-view>
 </template>
 
 <script>
@@ -7,11 +8,13 @@
 // import PadreNumero from './components/PadreNumero.vue';
 // import Comics from './components/ComicsComponent.vue';
 // import SeleccionMultiple from './components/SeleccionMultiple.vue';
-import CheckboxComponent from './components/CheckboxComponent.vue';
+// import CheckboxComponent from './components/CheckboxComponent.vue';
+// import MenuComponent from './components/MenuComponent.vue';
+import MenuTabla from './components/MenuTabla.vue';
 export default {
   name: 'App',
   components: {
-      CheckboxComponent
+    MenuTabla
   }
 }
 </script>
@@ -23,6 +26,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

@@ -21,6 +21,7 @@ export default {
     },
     methods:{
         generarNumeros(){
+            this.suma=0
             this.numeros=[]
             var n={
             }
